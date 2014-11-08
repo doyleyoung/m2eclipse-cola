@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lifecycleMappingMetadata>
+  <pluginExecutions>
+    <pluginExecution>
+      <pluginExecutionFilter>
+        <groupId>com.github.bmsantos</groupId>
+        <artifactId>cola-maven-plugin</artifactId>
+        <versionRange>[0,)</versionRange>
+        <goals>
+          <goal>compile</goal>
+        </goals>
+      </pluginExecutionFilter>
+      <action>
+        <configurator>
+          <id>com.github.bmsantos.m2e.cola.colaConfigurator</id>
+        </configurator>
+      </action>
+    </pluginExecution>
+  </pluginExecutions>
+</lifecycleMappingMetadata>

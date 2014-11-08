@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+   			point="org.eclipse.m2e.core.projectConfigurators">
+      <configurator
+            class="com.github.bmsantos.m2e.cola.ColaProjectConfigurator"
+            id="com.github.bmsantos.m2e.cola.colaConfigurator"
+            name="Cola Tests Project Configurator">
+      </configurator>
+   </extension>
+   <extension
+         point="org.eclipse.m2e.core.lifecycleMappingMetadataSource">
+   </extension>
+</plugin>

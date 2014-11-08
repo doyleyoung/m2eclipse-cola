@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.github.bmsantos.m2e.cola.feature_0.0.1.qualifier.jar" id="com.github.bmsantos.m2e.cola.feature" version="0.0.1.qualifier">
+      <category name="m2eclipse-cola"/>
+   </feature>
+   <category-def name="m2eclipse-cola" label="M2E Cola Tests Connector"/>
+</site>
