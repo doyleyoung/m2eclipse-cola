@@ -1,3 +1,6 @@
+Status: [![Build Status](https://travis-ci.org/bmsantos/m2eclipse-cola.svg?branch=master)](https://travis-ci.org/bmsantos/m2eclipse-cola)
+https://travis-ci.org/bmsantos/m2eclipse-cola.svg
+
 m2eclipse-cola
 ==============
 
