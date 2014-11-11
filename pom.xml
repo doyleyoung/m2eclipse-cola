@@ -62,7 +62,7 @@
 		<module>com.github.bmsantos.m2e.cola</module>
 		<module>com.github.bmsantos.m2e.cola.feature</module>
 		<module>com.github.bmsantos.m2e.cola.p2update</module>
-		<module>com.github.bmsantos.m2e.cola.tests</module>
+		<!-- module>com.github.bmsantos.m2e.cola.tests</module -->
 	</modules>
 
 	<build>
