@@ -11,8 +11,8 @@
 		<dependency>
 			<groupId>com.github.bmsantos</groupId>
 			<artifactId>cola-maven-plugin</artifactId>
-			<version>${project.version}</version>
-			<scope>test</scope>
+			<version>0.0.1-SNAPSHOT</version>
+			<scope>compile</scope>
 		</dependency>
 
 		<!-- Test -->
@@ -27,18 +27,9 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.2</version>
-				<configuration>
-					<source>1.7</source>
-					<target>1.7</target>
-				</configuration>
-			</plugin>
-			<plugin>
 				<groupId>com.github.bmsantos</groupId>
 				<artifactId>cola-maven-plugin</artifactId>
-				<version>${project.version}</version>
+				<version>0.0.1-SNAPSHOT</version>
 				<configuration>
 					<ideBaseClass>com.github.bmsantos.maven.cola.BaseColaTest</ideBaseClass>
 					<ideBaseClassTest>iWillBeRemoved</ideBaseClassTest>
@@ -58,6 +49,15 @@
 						</goals>
 					</execution>
 				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.2</version>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

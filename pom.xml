@@ -22,14 +22,14 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<tycho-version>0.21.0</tycho-version>
+		<tycho-version>0.19.0</tycho-version>
 	</properties>
 
 	<repositories>
 		<repository>
 			<id>kepler</id>
 			<layout>p2</layout>
-			<url>http://download.eclipse.org/releases/kepler</url>
+			<url>http://download.eclipse.org/releases/luna</url>
 		</repository>
 		<repository>
 			<id>m2e</id>
@@ -46,7 +46,7 @@
 			<layout>p2</layout>
 			<url>https://otto.takari.io/content/sites/m2e.extras/m2e/1.6.0/N/LATEST/</url>
 		</repository>
-		<repository>
+		<!-- repository>
 			<id>swtbot</id>
 			<layout>p2</layout>
 			<url>http://download.eclipse.org/technology/swtbot/snapshots</url>
@@ -55,14 +55,14 @@
 			<id>orbit</id>
 			<layout>p2</layout>
 			<url>http://download.eclipse.org/tools/orbit/downloads/drops/R20130517111416/repository</url>
-		</repository>
+		</repository -->
 	</repositories>
 
 	<modules>
 		<module>com.github.bmsantos.m2e.cola</module>
 		<module>com.github.bmsantos.m2e.cola.feature</module>
 		<module>com.github.bmsantos.m2e.cola.p2update</module>
-		<!-- module>com.github.bmsantos.m2e.cola.tests</module -->
+		<module>com.github.bmsantos.m2e.cola.tests</module>
 	</modules>
 
 	<build>
