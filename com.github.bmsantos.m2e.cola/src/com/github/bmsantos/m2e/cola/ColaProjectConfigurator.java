@@ -13,20 +13,20 @@ import org.eclipse.m2e.jdt.AbstractSourcesGenerationProjectConfigurator;
 
 public class ColaProjectConfigurator extends AbstractSourcesGenerationProjectConfigurator {
 
-	@Override
-	protected IPath getFullPath(final IMavenProjectFacade facade, File file) {
-		final IProject project = facade.getProject();
-		if (file == null) {
-			return project.getFullPath();
-		}
-		IPath path = MavenProjectUtils.getProjectRelativePath(project, file.getAbsolutePath());
-		return project.getFullPath().append(path);
-	}
+    @Override
+    protected IPath getFullPath(final IMavenProjectFacade facade, final File file) {
+        final IProject project = facade.getProject();
+        if (file == null) {
+            return null;
+        }
+        final IPath path = MavenProjectUtils.getProjectRelativePath(project, file.getAbsolutePath());
+        return project.getFullPath().append(path);
+    }
 
-	@Override
-	public AbstractBuildParticipant getBuildParticipant(
-			IMavenProjectFacade projectFacade, MojoExecution execution,
-			IPluginExecutionMetadata executionMetadata) {
-		return new ColaBuildParticipant(execution);
-	}
+    @Override
+    public AbstractBuildParticipant getBuildParticipant(
+        final IMavenProjectFacade projectFacade, final MojoExecution execution,
+        final IPluginExecutionMetadata executionMetadata) {
+        return new ColaBuildParticipant(execution);
+    }
 }
