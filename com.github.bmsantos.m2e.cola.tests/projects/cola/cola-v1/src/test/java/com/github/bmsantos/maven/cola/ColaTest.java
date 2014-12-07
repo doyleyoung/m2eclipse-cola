@@ -1,8 +1,8 @@
 package com.github.bmsantos.maven.cola;
 
-import com.github.bmsantos.maven.cola.annotations.Given;
-import com.github.bmsantos.maven.cola.annotations.Then;
-import com.github.bmsantos.maven.cola.annotations.When;
+import com.github.bmsantos.maven.cola.story.annotations.Given;
+import com.github.bmsantos.maven.cola.story.annotations.Then;
+import com.github.bmsantos.maven.cola.story.annotations.When;
 
 public class ColaTest extends BaseColaTest {
     
