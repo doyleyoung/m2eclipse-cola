@@ -34,4 +34,10 @@
         <module>com.github.bmsantos.m2e.cola.p2update</module>
         <module>com.github.bmsantos.m2e.cola.tests</module>
     </modules>
+
+    <scm>
+        <url>git@github.com:bmsantos/m2eclipse-cola.git</url>
+        <connection>scm:git:git@github.com:bmsantos/m2eclipse-cola.git</connection>
+        <developerConnection>scm:git:git@github.com:bmsantos/m2eclipse-cola.git</developerConnection>
+    </scm>
 </project>
