@@ -10,8 +10,8 @@
     <dependencies>
         <dependency>
             <groupId>com.github.bmsantos</groupId>
-            <artifactId>cola-maven-plugin</artifactId>
-            <version>0.0.1</version>
+            <artifactId>cola-tests</artifactId>
+            <version>0.0.3-SNAPSHOT</version>
         </dependency>
 
         <!-- Test -->
@@ -28,7 +28,7 @@
             <plugin>
                 <groupId>com.github.bmsantos</groupId>
                 <artifactId>cola-maven-plugin</artifactId>
-                <version>0.0.1</version>
+                <version>0.0.3-SNAPSHOT</version>
                 <configuration>
                     <ideBaseClass>com.github.bmsantos.maven.cola.BaseColaTest</ideBaseClass>
                     <ideBaseClassTest>iWillBeRemoved</ideBaseClassTest>
@@ -48,6 +48,13 @@
                         </goals>
                     </execution>
                 </executions>
+                <dependencies>
+                    <dependency>
+                        <groupId>com.github.bmsantos</groupId>
+                        <artifactId>cola-tests</artifactId>
+                        <version>0.0.3-SNAPSHOT</version>
+                    </dependency>
+                </dependencies>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
