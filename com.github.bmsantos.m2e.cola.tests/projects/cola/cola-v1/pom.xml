@@ -7,11 +7,15 @@
     <artifactId>cola-v1</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
+    <properties>
+        <cola.version>0.1.0</cola.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>com.github.bmsantos</groupId>
             <artifactId>cola-tests</artifactId>
-            <version>0.0.3-SNAPSHOT</version>
+            <version>${cola.version}</version>
         </dependency>
 
         <!-- Test -->
@@ -28,10 +32,10 @@
             <plugin>
                 <groupId>com.github.bmsantos</groupId>
                 <artifactId>cola-maven-plugin</artifactId>
-                <version>0.0.3-SNAPSHOT</version>
+                <version>${cola.version}</version>
                 <configuration>
                     <ideBaseClass>com.github.bmsantos.maven.cola.BaseColaTest</ideBaseClass>
-                    <ideBaseClassTest>iWillBeRemoved</ideBaseClassTest>
+                    <ideTestMethod>iWillBeRemoved</ideTestMethod>
                     <includes>
                         <include>**/*ColaTest.class</include>
                     </includes>
@@ -52,7 +56,7 @@
                     <dependency>
                         <groupId>com.github.bmsantos</groupId>
                         <artifactId>cola-tests</artifactId>
-                        <version>0.0.3-SNAPSHOT</version>
+                        <version>0.1.0</version>
                     </dependency>
                 </dependencies>
             </plugin>
