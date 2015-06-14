@@ -6,3 +6,6 @@ m2eclipse-cola
 ==============
 
 Cola Test m2e Connector - The m2e Connector for cola-maven-plugin.
+
+# Important notice
+**This project is OBSOLETE since [COLA Tests 0.3.0](https://github.com/bmsantos/cola-tests/wiki/Releases). The m2e connector is no longer required to be installed**
