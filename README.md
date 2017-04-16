@@ -5,6 +5,8 @@ Questions? [![Join Chat](https://badges.gitter.im/JoinChat.svg)](https://gitter.
 m2eclipse-cola
 ==============
 
+[![Join the chat at https://gitter.im/bmsantos/m2eclipse-cola](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/bmsantos/m2eclipse-cola?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Cola Test m2e Connector - The m2e Connector for cola-maven-plugin.
 
 # Important notice
